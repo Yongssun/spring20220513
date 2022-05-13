@@ -1,4 +1,4 @@
-package com.choong.spr;
+package com.choong.spr.controller;
 
 import java.text.DateFormat;
 import java.util.Date;
