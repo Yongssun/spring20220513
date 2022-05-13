@@ -3,11 +3,13 @@ package com.choong.spr.listener;
 import javax.servlet.ServletContext;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
+import javax.servlet.annotation.WebListener;
 
 /**
  * Application Lifecycle Listener implementation class AppListener
  *
  */
+
 public class AppListener implements ServletContextListener {
 
     /**
@@ -31,6 +33,10 @@ public class AppListener implements ServletContextListener {
          ServletContext application = sce.getServletContext();
          
          application.setAttribute("appRoot", application.getContextPath());
-       }
+    }
 	
 }
+
+
+
+
